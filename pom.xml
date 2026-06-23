@@ -13,13 +13,11 @@
                         <artifactId>junit</artifactId>
                         <version>3.8.1</version>
                 </dependency>
-                <!-- Spring MVC Dependency -->
                 <dependency>
                         <groupId>org.springframework</groupId>
                         <artifactId>spring-webmvc</artifactId>
                         <version>4.3.6.RELEASE</version>
                 </dependency>
-                <!-- Servlet dependency -->
                 <dependency>
                         <groupId>javax.servlet</groupId>
                         <artifactId>javax.servlet-api</artifactId>
@@ -37,11 +35,16 @@
                         <plugin>
                                 <groupId>org.apache.maven.plugins</groupId>
                                 <artifactId>maven-compiler-plugin</artifactId>
-                                <version>3.1</version>
+                                <version>3.11.0</version>
                                 <configuration>
-                                        <source>11</source>
-                                        <target>11</target>
+                                        <source>21</source>
+                                        <target>21</target>
                                 </configuration>
+                        </plugin>
+                        <plugin>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-war-plugin</artifactId>
+                                <version>3.3.2</version>
                         </plugin>
                 </plugins>
         </build>
