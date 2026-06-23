@@ -1,6 +1,6 @@
 <html>
 <body>
-	<h2>Welcome to Ashok IT School</h2>
+	<h2>DevOps Academy is welcoming you, with Vishal</h2>
 
 
 	<a href="displayForm.htm">Registration Form</a>
